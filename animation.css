@@ -1,0 +1,29 @@
+body{
+background:url('backs.jpeg');
+}
+#images{
+    display:flex;
+}
+#ravan{
+    position:fixed;
+}
+#ravan img{
+    height:768px;
+    margin-left:700px;
+}
+#ram img{
+    height:400px;
+    margin-top:384px;
+}
+#arrow img{
+    height:32px;
+    width:160px;
+    margin-top:528px;
+    margin-left:-96px;
+}
+/* #images button{
+    padding:11.2px 8px;
+    background-color: rgb(17, 17, 18);
+    height:1.6px;
+    color:white;
+} */
