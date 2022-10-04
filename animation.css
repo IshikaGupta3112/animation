@@ -5,25 +5,38 @@ background:url('backs.jpeg');
     display:flex;
 }
 #ravan{
-    position:fixed;
+    position:absolute;
+    visibility: hidden;
 }
+#dead{
+    position:absolute;
+    margin-left:750px;
+    margin-top:480px;
+    visibility:hidden;
+   }
 #ravan img{
-    height:768px;
+    height:760px;
     margin-left:700px;
+}
+#ram{
+    visibility: hidden;
 }
 #ram img{
     height:400px;
-    margin-top:384px;
+    margin-top:380px;
+}
+#arrow{
+    visibility:hidden;
 }
 #arrow img{
     height:32px;
     width:160px;
-    margin-top:528px;
+    margin-top:520px;
     margin-left:-96px;
+   
 }
-/* #images button{
-    padding:11.2px 8px;
+ button{
+    padding:5px 8px;
     background-color: rgb(17, 17, 18);
-    height:1.6px;
     color:white;
-} */
+}
