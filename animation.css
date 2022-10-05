@@ -1,5 +1,5 @@
 body{
-background:url('backs.jpeg');
+background:radial-gradient(rgb(63, 62, 62) ,rgb(45, 43, 43) , black);
 }
 #images{
     display:flex;
@@ -12,6 +12,25 @@ background:url('backs.jpeg');
     position:absolute;
     margin-left:750px;
     margin-top:480px;
+    visibility:hidden;
+   }
+   #end{
+    height:900px;
+    width:1000px;
+    position:absolute;
+   margin-top:0px;
+    margin-left:200px;
+    visibility: hidden;
+   }
+   #diya{
+    position:absolute;
+    width:500px;
+    visibility:hidden;
+   }
+   #diya2{
+    position:absolute;
+    width:500px;
+    margin-left:1100px;
     visibility:hidden;
    }
 #ravan img{
