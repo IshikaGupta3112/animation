@@ -76,5 +76,8 @@ function start(){
              }
         }
     }
+    setTimeout(()=>{
+        window.location.reload(true);
+    }, 21000);
 
 }
