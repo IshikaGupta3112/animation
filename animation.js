@@ -1,4 +1,6 @@
 function start(){
+    var audio = new Audio('sound.mp3');
+    audio.play();
     document.getElementById('btn').style.display="none";
     document.getElementById('ravan').style.visibility="visible";    
 	let arrow = document.getElementById("arrow");
@@ -7,9 +9,9 @@ function start(){
     document.getElementById('ram').style.visibility="visible";
     document.getElementById('arrow').style.visibility="visible";
     }
-    setTimeout(get,2000);
+    setTimeout(get,5000);
     function get(){
-        document.body.style.background="radial-gradient(yellow,orange,red)"   
+        document.body.style.background="linear-gradient(45deg ,yellow,orange,red)"   
 	setInterval(move,10);
 	var pos= 0;
 	let w = 550;
@@ -20,25 +22,25 @@ function start(){
         else{
 		arrow.style.marginLeft = pos +"px";
 		}
-		pos +=5;
+		pos +=4.5;
 	}
 }
-     setTimeout(gone ,3500);
+     setTimeout(gone ,7000);
      function gone(){
         document.getElementById('ravan').style.display='none';
         document.getElementById('arrow').style.display='none';
         document.getElementById('dead').style.visibility="visible"; 
-        document.body.style.background="radial-gradient(brown , grey)";   
+        document.body.style.background="linear-gradient(45deg,brown , grey)";   
     }
-     setTimeout(end ,5000);
+     setTimeout(end ,8000);
     function end(){
     document.getElementById('diya').style.visibility="visible";
     document.getElementById('diya2').style.visibility="visible";
     document.getElementById('dead').style.visibility="hidden";  
     document.getElementById('ram').style.visibility="hidden";
-    document.body.style.background="radial-gradient(pink , green)"
+    document.body.style.background="linear-gradient(45deg,pink , green)"
     } 
-    setTimeout(text , 5500);
+    setTimeout(text , 9000);
     function text(){
         document.getElementById('end').style.visibility="visible";
         setInterval(func , 2000);
