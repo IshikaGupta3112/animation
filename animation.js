@@ -1,3 +1,18 @@
+setInterval(button , 1000);
+function button(){
+    setTimeout(fn1,500);
+    setTimeout(fn2,1000);
+    function fn1(){
+document.getElementById('btn').style.height='85px';
+document.getElementById('btn').style.width='450px';
+document.getElementById('heading').style.fontSize='30px';
+    }
+    function fn2(){
+        document.getElementById('btn').style.height='75px';
+        document.getElementById('btn').style.width='400px';
+        document.getElementById('heading').style.fontSize='20px';
+            }
+}
 function start(){
     var audio = new Audio('sound.mp3');
     audio.play();
@@ -53,7 +68,7 @@ function start(){
              }
             setTimeout(func2,1000);
              function func2(){
-            document.getElementById('diya').style.opacity='0.7';
+            document.getElementById('diya').style.opacity='0.75';
              }
              setTimeout(func4,1500);
              function func4(){
